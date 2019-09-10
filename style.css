@@ -1,0 +1,91 @@
+body{
+margin:0;
+padding:0;
+height:100vh;
+background-image: linear-gradient(to right top, #28497c, #584282, #833276, #a31e59, #b11e31);
+display:flex;
+font-family:'Questrial';
+}
+
+*{
+font-family:'Questrial';
+}
+
+
+form{
+height:400px;
+margin:auto;
+width:800px;
+background-color:orange;
+border-radius:20px;
+background-image: linear-gradient(to right top, #28497c, #584282, #833276, #a31e59, #b11e31);
+box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.18);
+}
+
+.data{
+height:50px;
+width:250px;
+display:flex;
+margin:auto;
+justify-content:center;
+align-items:center;
+}
+
+h2{
+color:white;
+display:block;
+font-size:30px;
+text-align:center;
+}
+
+label{
+color:white;
+font-weight:400;
+font-size:20px;
+width:100%;
+text-align:center;
+}
+
+input{
+border-radius:30px;
+background-color:transparent;
+border:2px solid white;
+display:block;
+width:250px;
+color:white;
+padding:10px;
+text-align:center;
+margin:auto;
+transition:0.5s ease-in-out;
+outline:none;
+}
+
+input:focus{
+box-shadow:none;
+outline:none;
+border-color:red;
+background-color:none;
+transition:0.5s ease-in-out;
+transform:scale(1.04);
+box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.18);
+}
+
+button{
+color:white;
+background-image: linear-gradient(to right top, #1f498b, #0d4497, #003ea1, #0636aa, #1e2bb1);
+border:none;
+font-size:24px;
+margin-top:20px;
+margin-left:42%;
+padding:5px;
+width:120px;
+box-shadow:none;
+border-radius:20px;
+text-align:center;
+font-family:'Questrial';
+box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.18);
+}
+
+
+button:hover{
+}
